@@ -1,1 +1,1 @@
-word2vec trained on ASOIF books.
+word2vec trained on ASOIAF books.
