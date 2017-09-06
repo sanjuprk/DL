@@ -1,0 +1,65 @@
+\section{Related Work}
+\label{sec:related}
+
+The problem of generating natural language descriptions from visual
+data has long been studied in computer vision, but mainly for
+video~\cite{gerber1996knowledge,yao2010i2t}. This has led to complex
+systems composed of visual primitive recognizers combined with a structured
+formal language, e.g.~And-Or Graphs or logic systems, which are
+further converted to natural language via rule-based systems. Such
+systems are heavily hand-designed, relatively brittle and have been
+demonstrated only on limited domains, e.g. traffic scenes or sports.
+
+The problem of still image description with natural text has gained
+interest more recently. Leveraging recent advances in recognition of
+objects, their attributes and locations, allows us to drive natural language
+generation systems, though these are limited in their
+expressivity. Farhadi et al.~\cite{farhadi2010every} use detections to
+infer a triplet of scene elements which is converted to text using
+templates. Similarly, Li et al.~\cite{li2011composing} start off with
+detections and piece together a final description using phrases containing
+detected objects and relationships. A more complex graph of detections
+beyond triplets is used by Kulkani et
+al.~\cite{kulkarni2011baby}, but with template-based text generation.
+More powerful language models based on language parsing
+have been used as well
+\cite{mitchell2012midge,aker2010generating,kuznetsova2012collective,kuznetsova2014treetalk,elliott2013image}. The
+above approaches have been able to describe images ``in the wild",
+but they are heavily hand-designed and rigid when it comes to text
+generation.
+
+A large body of work has addressed the problem of ranking descriptions
+for a given image
+\cite{hodosh2013framing,gong2014improving,ordonez2011im2text}. Such
+approaches are based on the idea of co-embedding of images and text in
+the same vector space. For an image query, descriptions are retrieved
+which lie close to the image in the embedding space. Most closely, neural networks are used to co-embed
+images and sentences together \cite{socher2014grounded} or even image crops and subsentences \cite{karpathy2014deep} but do not attempt to generate novel
+descriptions. In general, the above approaches cannot describe previously unseen
+compositions of objects, even though the individual objects might have been
+observed in the training data. Moreover, they avoid addressing the
+problem of evaluating how good a generated description is.
+
+In this work we combine deep
+convolutional nets for image classification \cite{batchnorm} with
+recurrent networks for sequence modeling
+\cite{hochreiter1997long}, to create a single network
+that generates descriptions of images. The RNN is trained in the context of
+this single ``end-to-end'' network. The model is inspired
+by recent successes of sequence generation in machine translation
+\cite{cho2014learning,bahdanau2014neural,sutskever2014sequence}, with
+the difference that instead of starting with a sentence, we provide an image
+processed by a convolutional net. The closest works are by Kiros et al.~\cite{kiros2013multimodal} who
+use a neural net, but a feedforward one, to predict the next word given the image
+and previous words. A recent work by Mao et al.~\cite{baidu2014} uses a recurrent
+NN for the same prediction task. This is very similar to the present proposal but
+there are a number of important differences:  we use a more powerful RNN model,
+and provide the visual input to the RNN model directly, which makes it possible
+for the RNN to keep track of the objects that have been explained by the text.  As
+a result of these seemingly insignificant differences, our system achieves
+substantially better results on the established benchmarks. Lastly, Kiros et al.~\cite{kiros2014}
+propose to construct a joint multimodal embedding space by using a powerful
+computer vision model and an LSTM that encodes text. In contrast to our approach,
+they use two separate pathways (one for images, one for text) to define a joint embedding,
+and, even though they can generate text, their approach is highly tuned for ranking.
+

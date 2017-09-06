@@ -1,0 +1,20 @@
+\section{Conclusion}
+\label{sec:conclusion}
+We have presented NIC, an
+end-to-end neural network system that can automatically view an image
+and generate a reasonable description in plain English.
+NIC is based on a convolution neural network that encodes an image into
+a compact representation, followed by a recurrent neural network that
+generates a corresponding sentence. The model is trained to maximize
+the likelihood of the sentence given the image.
+Experiments on several datasets
+show the robustness of NIC in terms of qualitative results (the
+generated sentences are very reasonable) and quantitative evaluations,
+using either ranking metrics or BLEU, a metric used in machine translation
+to evaluate the quality of generated sentences.
+It is clear from these experiments that, as the size of the available
+datasets for image description increases, so will the performance of
+approaches like NIC.
+Furthermore, it will be interesting to see how one can use unsupervised
+data, both from images alone and text alone, to improve image description
+approaches.

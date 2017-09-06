@@ -1,0 +1,190 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{aker2010generating}
+A.~Aker and R.~Gaizauskas.
+\newblock Generating image descriptions using dependency relational patterns.
+\newblock In {\em ACL}, 2010.
+
+\bibitem{bahdanau2014neural}
+D.~Bahdanau, K.~Cho, and Y.~Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em arXiv:1409.0473}, 2014.
+
+\bibitem{cho2014learning}
+K.~Cho, B.~van Merrienboer, C.~Gulcehre, F.~Bougares, H.~Schwenk, and
+  Y.~Bengio.
+\newblock Learning phrase representations using {RNN} encoder-decoder for
+  statistical machine translation.
+\newblock In {\em EMNLP}, 2014.
+
+\bibitem{decaf2014}
+J.~Donahue, Y.~Jia, O.~Vinyals, J.~Hoffman, N.~Zhang, E.~Tzeng, and T.~Darrell.
+\newblock Decaf: A deep convolutional activation feature for generic visual
+  recognition.
+\newblock In {\em ICML}, 2014.
+
+\bibitem{elliott2013image}
+D.~Elliott and F.~Keller.
+\newblock Image description using visual dependency representations.
+\newblock In {\em EMNLP}, 2013.
+
+\bibitem{farhadi2010every}
+A.~Farhadi, M.~Hejrati, M.~A. Sadeghi, P.~Young, C.~Rashtchian, J.~Hockenmaier,
+  and D.~Forsyth.
+\newblock Every picture tells a story: Generating sentences from images.
+\newblock In {\em ECCV}, 2010.
+
+\bibitem{gerber1996knowledge}
+R.~Gerber and H.-H. Nagel.
+\newblock Knowledge representation for the generation of quantified natural
+  language descriptions of vehicle traffic in image sequences.
+\newblock In {\em ICIP}. IEEE, 1996.
+
+\bibitem{gong2014improving}
+Y.~Gong, L.~Wang, M.~Hodosh, J.~Hockenmaier, and S.~Lazebnik.
+\newblock Improving image-sentence embeddings using large weakly annotated
+  photo collections.
+\newblock In {\em ECCV}, 2014.
+
+\bibitem{graves2013generating}
+A.~Graves.
+\newblock Generating sequences with recurrent neural networks.
+\newblock {\em arXiv:1308.0850}, 2013.
+
+\bibitem{hochreiter1997long}
+S.~Hochreiter and J.~Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural Computation}, 9(8), 1997.
+
+\bibitem{hodosh2013framing}
+M.~Hodosh, P.~Young, and J.~Hockenmaier.
+\newblock Framing image description as a ranking task: Data, models and
+  evaluation metrics.
+\newblock {\em JAIR}, 47, 2013.
+
+\bibitem{batchnorm}
+S.~Ioffe and C.~Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock In {\em arXiv:1502.03167}, 2015.
+
+\bibitem{karpathy2014deep}
+A.~Karpathy, A.~Joulin, and L.~Fei-Fei.
+\newblock Deep fragment embeddings for bidirectional image sentence mapping.
+\newblock {\em NIPS}, 2014.
+
+\bibitem{kiros2014}
+R.~Kiros, R.~Salakhutdinov, and R.~S. Zemel.
+\newblock Unifying visual-semantic embeddings with multimodal neural language
+  models.
+\newblock In {\em arXiv:1411.2539}, 2014.
+
+\bibitem{kiros2013multimodal}
+R.~Kiros and R.~Z.~R. Salakhutdinov.
+\newblock Multimodal neural language models.
+\newblock In {\em NIPS Deep Learning Workshop}, 2013.
+
+\bibitem{kulkarni2011baby}
+G.~Kulkarni, V.~Premraj, S.~Dhar, S.~Li, Y.~Choi, A.~C. Berg, and T.~L. Berg.
+\newblock Baby talk: Understanding and generating simple image descriptions.
+\newblock In {\em CVPR}, 2011.
+
+\bibitem{kuznetsova2012collective}
+P.~Kuznetsova, V.~Ordonez, A.~C. Berg, T.~L. Berg, and Y.~Choi.
+\newblock Collective generation of natural image descriptions.
+\newblock In {\em ACL}, 2012.
+
+\bibitem{kuznetsova2014treetalk}
+P.~Kuznetsova, V.~Ordonez, T.~Berg, and Y.~Choi.
+\newblock Treetalk: Composition and compression of trees for image
+  descriptions.
+\newblock {\em ACL}, 2(10), 2014.
+
+\bibitem{li2011composing}
+S.~Li, G.~Kulkarni, T.~L. Berg, A.~C. Berg, and Y.~Choi.
+\newblock Composing simple image descriptions using web-scale n-grams.
+\newblock In {\em Conference on Computational Natural Language Learning}, 2011.
+
+\bibitem{lin2014microsoft}
+T.-Y. Lin, M.~Maire, S.~Belongie, J.~Hays, P.~Perona, D.~Ramanan,
+  P.~Doll{\'a}r, and C.~L. Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock {\em arXiv:1405.0312}, 2014.
+
+\bibitem{baidu2014}
+J.~Mao, W.~Xu, Y.~Yang, J.~Wang, and A.~Yuille.
+\newblock Explain images with multimodal recurrent neural networks.
+\newblock In {\em arXiv:1410.1090}, 2014.
+
+\bibitem{mikolov2013}
+T.~Mikolov, K.~Chen, G.~Corrado, and J.~Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock In {\em ICLR}, 2013.
+
+\bibitem{mitchell2012midge}
+M.~Mitchell, X.~Han, J.~Dodge, A.~Mensch, A.~Goyal, A.~C. Berg, K.~Yamaguchi,
+  T.~L. Berg, K.~Stratos, and H.~D. III.
+\newblock Midge: Generating image descriptions from computer vision detections.
+\newblock In {\em EACL}, 2012.
+
+\bibitem{ordonez2011im2text}
+V.~Ordonez, G.~Kulkarni, and T.~L. Berg.
+\newblock Im2text: Describing images using 1 million captioned photographs.
+\newblock In {\em NIPS}, 2011.
+
+\bibitem{papineni2002}
+K.~Papineni, S.~Roukos, T.~Ward, and W.~J. Zhu.
+\newblock {BLEU}: A method for automatic evaluation of machine translation.
+\newblock In {\em ACL}, 2002.
+
+\bibitem{rashtchian2010collecting}
+C.~Rashtchian, P.~Young, M.~Hodosh, and J.~Hockenmaier.
+\newblock Collecting image annotations using amazon's mechanical turk.
+\newblock In {\em NAACL HLT Workshop on Creating Speech and Language Data with
+  Amazon's Mechanical Turk}, pages 139--147, 2010.
+
+\bibitem{ILSVRCarxiv14}
+O.~Russakovsky, J.~Deng, H.~Su, J.~Krause, S.~Satheesh, S.~Ma, Z.~Huang,
+  A.~Karpathy, A.~Khosla, M.~Bernstein, A.~C. Berg, and L.~Fei-Fei.
+\newblock {ImageNet Large Scale Visual Recognition Challenge}, 2014.
+
+\bibitem{sermanet2013overfeat}
+P.~Sermanet, D.~Eigen, X.~Zhang, M.~Mathieu, R.~Fergus, and Y.~LeCun.
+\newblock Overfeat: Integrated recognition, localization and detection using
+  convolutional networks.
+\newblock {\em arXiv preprint arXiv:1312.6229}, 2013.
+
+\bibitem{socher2014grounded}
+R.~Socher, A.~Karpathy, Q.~V. Le, C.~Manning, and A.~Y. Ng.
+\newblock Grounded compositional semantics for finding and describing images
+  with sentences.
+\newblock In {\em ACL}, 2014.
+
+\bibitem{sutskever2014sequence}
+I.~Sutskever, O.~Vinyals, and Q.~V. Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em NIPS}, 2014.
+
+\bibitem{cider}
+R.~Vedantam, C.~L. Zitnick, and D.~Parikh.
+\newblock {CIDEr}: Consensus-based image description evaluation.
+\newblock In {\em arXiv:1411.5726}, 2015.
+
+\bibitem{yao2010i2t}
+B.~Z. Yao, X.~Yang, L.~Lin, M.~W. Lee, and S.-C. Zhu.
+\newblock I2t: Image parsing to text description.
+\newblock {\em Proceedings of the IEEE}, 98(8), 2010.
+
+\bibitem{hodoshimage}
+P.~Young, A.~Lai, M.~Hodosh, and J.~Hockenmaier.
+\newblock From image descriptions to visual denotations: New similarity metrics
+  for semantic inference over event descriptions.
+\newblock In {\em ACL}, 2014.
+
+\bibitem{zaremba2014}
+W.~Zaremba, I.~Sutskever, and O.~Vinyals.
+\newblock Recurrent neural network regularization.
+\newblock In {\em arXiv:1409.2329}, 2014.
+
+\end{thebibliography}
